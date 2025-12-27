@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import './App.css'
+import profilePhoto from './assets/ben.jpeg'
 
 function FlagTR(props) {
   return (
@@ -320,7 +321,7 @@ function App() {
         <section className="hero">
           <div className="heroLeft">
             <div className="avatar" aria-hidden="true">
-              AÇ
+              <img className="avatarImg" src={profilePhoto} alt="Ahmet Çetin" loading="eager" />
             </div>
             <div className="heroText">
               <h1 className="name">{t.hero.name}</h1>
