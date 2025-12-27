@@ -27,9 +27,11 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background:
-    radial-gradient(900px 500px at 10% 10%, rgba(103, 232, 249, 0.12), transparent 60%),
-    radial-gradient(900px 500px at 90% 20%, rgba(167, 139, 250, 0.12), transparent 60%),
-    radial-gradient(900px 500px at 70% 90%, rgba(52, 211, 153, 0.1), transparent 60%),
+    radial-gradient(900px 520px at 15% 15%, rgba(103, 232, 249, 0.18), transparent 60%),
+    radial-gradient(900px 520px at 85% 20%, rgba(167, 139, 250, 0.18), transparent 60%),
+    radial-gradient(900px 520px at 75% 85%, rgba(52, 211, 153, 0.16), transparent 60%),
+    radial-gradient(700px 450px at 30% 90%, rgba(251, 146, 60, 0.12), transparent 60%),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0)),
     #0b0f17;
 }
 
