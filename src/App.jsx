@@ -353,12 +353,6 @@ function App() {
               </div>
             </div>
             <div className="kv">
-              <div className="k">{t.quick.phone}</div>
-              <div className="v">
-                <a href="tel:+905423467818">+90 542 346 7818</a>
-              </div>
-            </div>
-            <div className="kv">
               <div className="k">{t.quick.linkedin}</div>
               <div className="v">
                 <a href="https://linkedin.com/in/acetin7/" target="_blank" rel="noreferrer">
@@ -459,12 +453,6 @@ function App() {
             <div className="card">
               <h3>{t.sections.contact.infoTitle}</h3>
               <div className="contactList">
-                <div className="contactRow">
-                  <span className="contactKey">{t.sections.contact.fields.phone}</span>
-                  <a className="contactVal" href="tel:+905423467818">
-                    +90 542 346 7818
-                  </a>
-                </div>
                 <div className="contactRow">
                   <span className="contactKey">{t.sections.contact.fields.email}</span>
                   <a className="contactVal" href="mailto:ahmetcetin.eem@gmail.com">
